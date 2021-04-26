@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoginActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter ID"
+        android:layout_marginTop="250dp"
+        android:inputType="text"
+        android:id="@+id/user_id"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:id="@+id/user_pass"
+        android:inputType="textPassword"
+        android:layout_below="@+id/user_id"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/user_pass"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="155dp"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/loginbtn"
+        />
+</RelativeLayout>

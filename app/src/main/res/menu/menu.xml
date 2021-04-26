@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Log-out"
+        android:id="@+id/main_logout_btn"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="Add Departments"
+        android:id="@+id/main_add_dpt_btn"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Add Trainings"
+        android:id="@+id/main_traing_btn"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="All Users"
+        android:id="@+id/main_all_users"
+        app:showAsAction="never">
+    </item>
+</menu>

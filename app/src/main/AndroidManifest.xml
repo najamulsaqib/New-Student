@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.freshmanfinal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Taken_Trainings"></activity>
+        <activity android:name=".SaveAttendace" />
+        <activity android:name=".Student_View_Trainings" />
+        <activity android:name=".ScanQr" />
+        <activity android:name=".St_View_Trainings" />
+        <activity android:name=".MarkAttendace" />
+        <activity android:name=".QR_View" />
+        <activity android:name=".Start_Training" />
+        <activity android:name=".View_Trainings" />
+        <activity android:name=".Add_departments" />
+        <activity android:name=".Addtraining" />
+        <activity android:name=".ViewStudents" />
+        <activity android:name=".Selection" />
+        <activity android:name=".Adminn" />
+        <activity android:name=".Addtrainer" />
+        <activity android:name=".Addstudent" />
+        <activity android:name=".DepartmentHead" />
+        <activity android:name=".StudentDashboard" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
